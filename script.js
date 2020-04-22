@@ -1,4 +1,5 @@
 function changeColor() 
-{
-    document.querySelector('main').style.backgroundColor = "RED";
+{   
+    Selector = document.querySelector('#Choice').value;
+    document.querySelector('main').style.backgroundColor = Selector;
 }
